@@ -7,9 +7,9 @@ require 'ChiketErase.php';
 
 class Button
 {
-    public $drink;
-    public $food;
-    public $erase;
+    private $drink;
+    private $food;
+    private $erase;
 
     public function __construct($chiket)
     {
