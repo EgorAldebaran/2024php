@@ -1,6 +1,6 @@
 <?php
 
-class AdapterBike extends Bike
+class AdapterBike implements iBike
 {
     private $waterBike;
 

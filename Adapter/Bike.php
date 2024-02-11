@@ -1,6 +1,6 @@
 <?php
 
-class Bike
+class Bike implements iBike
 {
     public function drive()
     {
